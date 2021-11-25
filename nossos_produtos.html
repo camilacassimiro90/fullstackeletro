@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos - Full Stack Eletros</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/funcoes.js"></script>
+  </head>
+  <body>
+    <!-- INICIO MENU -->
+    <nav class="menu">
+      <a href="index.html"><img width="100px" src="imagens/logo.jpeg" alt="Full Stack Eletro"/></a>
+      <a href="nossos_produtos.html">Nossos Produtos</a>
+      <a href="nossas_lojas.html">Nossas Lojas</a>
+      <a href="fale_conosco.html">Fale Conosco</a>
+    </nav>
+    <!-- FIM MENU -->
+    <header>
+      <h1>Produtos</h1>
+    </header>
+    <hr />
+    <section class="categorias">
+      <h3>Categorias</h3>
+      <ul>
+        <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
+        <li onclick="exibir_categoria('fogao')">Fogões (2)</li>
+        <li onclick="exibir_categoria('microondas')">Microondas (3)</li>
+        <li onclick="exibir_categoria('lavaroupas')">Lavadora de roupas (3)</li>
+        <li onclick="exibir_categoria('lavaloucas')">Lava-louças (3)</li>
+      </ul>
+    </section>
+    <section class="produtos">
+      <div class="box_produto" id="geladeira">
+        <img src="imagens/geladeira.jpg" alt="geladeira" width="120px"/>
+        <br />
+        <p class="descricao">Geladeira Frost Free Brastemp Side Inverse</p>
+        <hr />
+        <p class="descricao"><strike>R$ 6.389,00</strike></p>
+        <p class="preco">R$ 5.019,00</p>
+      </div>
+      <div class="box_produto" id="geladeira">
+        <img src="imagens/geladeira-branca.jpg" alt="geladeira" width="100px"/>
+        <br />
+        <p class="descricao">Geladeira Frost Free Branca 340 litros</p>
+        <hr />
+        <p class="descricao"><strike>R$ 3.350,00</strike></p>
+        <p class="preco">R$ 2.750,00</p>
+      </div>
+      <div class="box_produto" id="geladeira">
+        <img src="imagens/geladeira electrolux.png" alt="geladeira" width="100px"/>
+        <br />
+        <p class="descricao">Geladeira Electrolux Top Free Branco</p>
+        <hr />
+        <p class="descricao"><strike>R$ 3.350,00</strike></p>
+        <p class="preco">R$ 2.900,00</p>
+      </div>
+      <div class="box_produto" id="fogao">
+        <img src="imagens/fogao consul.png" alt="fogão" width="100px"/>
+        <br />
+        <p class="descricao">Fogão Consul Inox 5 Bocas</p>
+        <hr />
+        <p class="descricao"><strike>R$ 1.350,00</strike></p>
+        <p class="preco">R$ 1.250,70</p>
+      </div>
+      <div class="box_produto" id="fogao">
+        <img src="imagens/fogão.jpg" alt="fogão" width="100px"/>
+        <br />
+        <p class="descricao">Fogão de Piso 4 Bocas Branco</p>
+        <hr />
+        <p class="descricao"><strike>R$ 689,90</strike></p>
+        <p class="preco">R$ 519,70</p>
+      </div>
+      <div class="box_produto" id="microondas">
+        <img src="imagens/microondas.jpg" alt="microondas" width="100px"/>
+        <br />
+        <p class="descricao">Microondas Consul 32 Litros Inox 220V</p>
+        <hr />
+        <p class="descricao"><strike>R$ 580,90</strike></p>
+        <p class="preco">R$ 409,88</p>
+      </div>
+      <div class="box_produto" id="microondas">
+        <img src="imagens/micro-philco.jpg" alt="microondas" width="100px"/>
+        <br />
+        <p class="descricao">Microondas 25L Espelhado Philco 220V</p>
+        <hr />
+        <p class="descricao"><strike>R$ 508,70</strike></p>
+        <p class="preco">R$ 464,53</p>
+      </div>
+      <div class="box_produto" id="microondas">
+        <img src="imagens/micro-ondas electrolux.jpg" alt="microondas" width="100px"/>
+        <br />
+        <p class="descricao">Micro-ondas Electrolux 20 litros</p>
+        <hr />
+        <p class="descricao"><strike>R$ 900,70</strike></p>
+        <p class="preco">R$ 500,53</p>
+      </div>
+      <div class="box_produto" id="lavaroupas">
+        <img src="imagens/lavadora brastemp.png" alt="lavadora" width="100px"/>
+        <br />
+        <p class="descricao">Lavadora de roupas Brastemp 9kg</p>
+        <hr />
+        <p class="descricao"><strike>R$ 2.350,70</strike></p>
+        <p class="preco">R$ 1.800,53</p>
+      </div>
+      <div class="box_produto" id="lavaroupas">
+        <img src="imagens/lavadora consul.jpg" alt="lavadora" width="100px"/>
+        <br />
+        <p class="descricao">Lavadora de roupas Consul 9kg Branca</p>
+        <hr />
+        <p class="descricao"><strike>R$ 1.350,70</strike></p>
+        <p class="preco">R$ 900,53</p>
+      </div>
+      <div class="box_produto" id="lavaloucas">
+        <img src="imagens/lava-louças brastemp.jpg" alt="Lava-louças" width="100px"/>
+        <br />
+        <p class="descricao">Lava-louças Brastemp 14 serviços Inox</p>
+        <hr />
+        <p class="descricao"><strike>R$ 3.350,70</strike></p>
+        <p class="preco">R$ 2.050,53</p>
+      </div>
+      <div class="box_produto" id="lavaloucas">
+        <img src="imagens/lava-louça electrolux.jpg" alt="Lava-louças" width="100px"/>
+        <br />
+        <p class="descricao">Lava-louças Electrolux 14 serviços Inox</p>
+        <hr />
+        <p class="descricao"><strike>R$ 6.350,70</strike></p>
+        <p class="preco">R$ 5.050,53</p>
+      </div>
+    </section>
+    <!-- INICIO RODAPÉ -->
+    <footer id="rodape">      
+      <p id="formas pgto">Formas de pagamento</p>      
+      <img src="imagens/forma-pgto.png" alt="Formas de pagamento" />
+      <p id="marca">© Recode Pro</p>
+    </footer>
+    <!-- FIM RODAPÉ -->
+  </body>
+</html>
